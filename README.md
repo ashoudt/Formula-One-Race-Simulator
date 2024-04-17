@@ -27,12 +27,9 @@ as he passes Sergio Perez! Completed lap 41/57. Though these overtakes are 5 lap
 Sargeant.
 
 ## Future Work
-There is a lot of future work that can be done with this program and I wish I could have implemented it in this curren version. For starters, there's more race events that could
+There is a lot of future work that can be done with this program that is not in this current version (4/2024). For starters, there's more race events that could
 be added like weather conditions and having the conditions change during the race and affect the outcome of the race (create more crashes), different tire options that could make
-one driver faster than the other, pit stops, red/yellow/green flags for race incidents, etc. Additionally, I want to create more functionality with the `Team` class. I originally 
-wanted to add different strategies that get assigned to each team and could potentially affect driver performance. This ended up being more difficult than I thought, and I was 
-limited on time, so I dropped the idea. In terms of a drivers championship, one future feature could be displaying the total amount of points a driver has earned for each race the
-user continues with. I also think this program could one day become a cool graphic project.
+one driver faster than the other, pit stops, red/yellow/green flags for race incidents, etc. Additionally, there could be more functionality implemented within the `Team` class. This includes adding different strategies that get assigned to each team, which could then affect driver performance. In terms of a drivers championship, one future feature could be displaying the total amount of points a driver has earned for each race the user continues with.
 
 ## References
 * https://www.geeksforgeeks.org/sleep-function-in-cpp/
@@ -40,8 +37,4 @@ user continues with. I also think this program could one day become a cool graph
 * https://www.geeksforgeeks.org/swap-in-cpp/
 * https://stackoverflow.com/questions/12885356/random-numbers-with-different-probabilities
 * https://www.w3schools.com/cpp/cpp_break.asp
-
-
-For the concept points, there may be some error in my relationships that I don't know of, but generally I have an inheritance relationship with `Partcipant` as the base class and `Driver`
-and `Team` as the subclasses, and I have multiple component relationships being Race has-a Circuit, Driver has-a Team, and Race has Drivers. Also, I have file input for three different files.
 
