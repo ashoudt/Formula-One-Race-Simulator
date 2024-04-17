@@ -20,6 +20,9 @@ of laps for the race. This method automatically returns the user to the main men
 
 **Note:** The skill levels used to compute driver performance are hypothetical values based on 2023 team and driver championship standings. 
 
+## Languages used
+* C++
+
 ## Known Bugs
 At this time, the only bug known of is with the overtake logic. Sometimes a driver will overtake another driver, but then the next overtake is the same two drivers. For example,
 overtake 1: A bold maneuver from Logan Sargeant as he seizes the opportunity to overtake Sergio Perez! Completed lap 36/57, and overtake 2: Incredible driving from Logan Sargeant 
